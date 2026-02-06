@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet Lord Meruem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Vidéo en arrière-plan (plus claire) -->
+  <video autoplay muted loop id="bg-video">
+    <source src="VUKI DUMOU x MTG PANCADA RITMADO __ [BRAZILIAN FUNK MASHUP].mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <h1>Projet Lord Meruem</h1>
+    <p>Bienvenue dans le projet</p>
+
+    <button id="light-mode" onclick="toggleMode()">Changer le mode</button>
+    <span class="badge">v1.0</span>
+
+    <!-- Bouton musique -->
+    <button id="play-music">▶️ Lancer la musique</button>
+  </div>
+
+  <!-- Audio -->
+  <audio id="bg-music" loop>
+    <source src="ORDINARY LIFE FUNK.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
